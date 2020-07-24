@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Arc Dark Theme",
+    "vim.easymotion": true,
+    "vim.easymotionMarkerFontSize": "17",
+    "vim.easymotionMarkerForegroundColorOneChar": "yellow",
+    "vim.easymotionMarkerForegroundColorTwoChar": "yellow",
+    "vim.easymotionMarkerBackgroundColor": "black",
+    "vim.easymotionMarkerHeight": 18,
+    "vim.easymotionMarkerWidthPerChar": 17,
+     "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.fontSize": 17,
+    "window.menuBarVisibility": "toggle",
+}
