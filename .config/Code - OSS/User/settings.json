@@ -1,20 +1,44 @@
 {
-    "workbench.colorTheme": "Arc Dark Theme",
-    "vim.easymotion": true,
-    "vim.easymotionMarkerFontSize": "17",
-    "vim.easymotionMarkerForegroundColorOneChar": "yellow",
-    "vim.easymotionMarkerForegroundColorTwoChar": "yellow",
-    "vim.easymotionMarkerBackgroundColor": "black",
-    "vim.easymotionMarkerHeight": 18,
-    "vim.easymotionMarkerWidthPerChar": 17,
-     "vim.insertModeKeyBindings": [
+  "workbench.colorTheme": "Arc Dark Theme",
+  "vim.easymotion": true,
+  "vim.easymotionMarkerFontSize": "17",
+  "vim.easymotionMarkerForegroundColorOneChar": "yellow",
+  "vim.easymotionMarkerForegroundColorTwoChar": "yellow",
+  "vim.easymotionMarkerBackgroundColor": "black",
+  "vim.easymotionMarkerHeight": 18,
+  "vim.easymotionMarkerWidthPerChar": 17,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "r", "f"],
+      "commands": ["fileutils.renameFile"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
       "after": ["<Esc>"]
     }
   ],
-    "editor.minimap.enabled": false,
-    "editor.lineNumbers": "relative",
-    "editor.fontSize": 17,
-    "window.menuBarVisibility": "toggle",
+  "vim.leader": ",",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 17,
+  "window.menuBarVisibility": "toggle",
+  "git.autofetch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 0,
+  "gitlens.views.repositories.files.layout": "tree"
 }

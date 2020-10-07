@@ -208,3 +208,4 @@ ex ()
 
 neofetch
 alias config='/usr/bin/git --git-dir=/home/roman/dotfiles/ --work-tree=/home/roman'
+alias life='cat /sys/class/power_supply/BAT0/capacity'
