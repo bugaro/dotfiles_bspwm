@@ -40,5 +40,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "window.zoomLevel": 0,
-  "gitlens.views.repositories.files.layout": "tree"
+  "gitlens.views.repositories.files.layout": "tree",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace','Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid','Font Awesome 5 Free Regular', monospace, 'Droid Sans Fallback'"
 }
