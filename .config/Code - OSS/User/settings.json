@@ -20,6 +20,8 @@
       "before": ["<leader>", "f"],
       "commands": ["revealInExplorer"]
     },
+    { "before": ["<leader>", "d"], "commands": ["workbench.view.debug"] },
+    { "before": ["<leader>", "k"], "commands": ["workbench.view.scm"] },
     {
       "before": ["<leader>", "r", "f"],
       "commands": ["fileutils.renameFile"]
