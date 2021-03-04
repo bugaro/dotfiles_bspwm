@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Arc Dark Theme",
+  "workbench.colorTheme": "Nord",
   "vim.easymotion": true,
   "vim.easymotionMarkerFontSize": "17",
   "vim.easymotionMarkerForegroundColorOneChar": "yellow",
@@ -36,12 +36,14 @@
   "vim.leader": ",",
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "relative",
-  "editor.fontSize": 17,
   "window.menuBarVisibility": "toggle",
   "git.autofetch": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "window.zoomLevel": 0,
   "gitlens.views.repositories.files.layout": "tree",
-  "editor.fontFamily": "'Droid Sans Mono', 'monospace','Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid','Font Awesome 5 Free Regular', monospace, 'Droid Sans Fallback'"
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace','Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid','Font Awesome 5 Free Regular', monospace, 'Droid Sans Fallback'",
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.fontLigatures": true
 }
