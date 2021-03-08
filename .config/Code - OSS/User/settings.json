@@ -24,6 +24,7 @@
     { "before": ["<leader>", "d"], "commands": ["workbench.view.debug"] },
     { "before": ["<leader>", "k"], "commands": ["git.commitAll"] },
     { "before": ["<leader>", "g"], "commands": ["workbench.view.scm"] },
+    { "before": ["<leader>", "c"], "commands": ["git.checkout"] },
     {
       "before": ["<leader>", "r", "f"],
       "commands": ["fileutils.renameFile"]
