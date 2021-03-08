@@ -1,6 +1,7 @@
 {
   "workbench.colorTheme": "Nord",
   "vim.easymotion": true,
+   "vim.useSystemClipboard": true,
   "vim.easymotionMarkerFontSize": "17",
   "vim.easymotionMarkerForegroundColorOneChar": "yellow",
   "vim.easymotionMarkerForegroundColorTwoChar": "yellow",
@@ -21,10 +22,18 @@
       "commands": ["revealInExplorer"]
     },
     { "before": ["<leader>", "d"], "commands": ["workbench.view.debug"] },
-    { "before": ["<leader>", "k"], "commands": ["workbench.view.scm"] },
+    { "before": ["<leader>", "k"], "commands": ["git.commitAll"] },
     {
       "before": ["<leader>", "r", "f"],
       "commands": ["fileutils.renameFile"]
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
     }
   ],
   "vim.insertModeKeyBindings": [
@@ -33,9 +42,15 @@
       "after": ["<Esc>"]
     }
   ],
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-n>": false,
+    "<C-r>": false
+  },
   "vim.leader": ",",
+  "vim.searchHighlightColor": "rgba(0, 0, 0, 0.5)",
   "editor.minimap.enabled": false,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "on",
   "window.menuBarVisibility": "toggle",
   "git.autofetch": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
