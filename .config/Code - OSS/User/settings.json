@@ -23,6 +23,7 @@
     },
     { "before": ["<leader>", "d"], "commands": ["workbench.view.debug"] },
     { "before": ["<leader>", "k"], "commands": ["git.commitAll"] },
+    { "before": ["<leader>", "g"], "commands": ["workbench.view.scm"] },
     {
       "before": ["<leader>", "r", "f"],
       "commands": ["fileutils.renameFile"]
@@ -60,5 +61,7 @@
   "editor.fontSize": 15,
   "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace','Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid','Font Awesome 5 Free Regular', monospace, 'Droid Sans Fallback'",
   "todo-tree.tree.showScanModeButton": false,
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false
 }
