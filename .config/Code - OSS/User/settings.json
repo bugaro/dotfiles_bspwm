@@ -1,13 +1,9 @@
 {
-  "workbench.colorTheme": "Nord",
+ "workbench.colorTheme": "Nord",
   "vim.easymotion": true,
-   "vim.useSystemClipboard": true,
-  "vim.easymotionMarkerFontSize": "17",
+  "vim.useSystemClipboard": true,
   "vim.easymotionMarkerForegroundColorOneChar": "yellow",
-  "vim.easymotionMarkerForegroundColorTwoChar": "yellow",
   "vim.easymotionMarkerBackgroundColor": "black",
-  "vim.easymotionMarkerHeight": 18,
-  "vim.easymotionMarkerWidthPerChar": 17,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "w"],
@@ -50,8 +46,7 @@
   ],
   "vim.handleKeys": {
     "<C-f>": false,
-    "<C-n>": false,
-    "<C-r>": false
+    "<C-n>": false
   },
   "vim.leader": ",",
   "vim.searchHighlightColor": "rgba(0, 0, 0, 0.5)",
