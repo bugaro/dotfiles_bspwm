@@ -22,6 +22,10 @@
     { "before": ["<leader>", "g"], "commands": ["workbench.view.scm"] },
     { "before": ["<leader>", "c"], "commands": ["git.checkout"] },
     {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.openRecent"]
+    },
+    {
       "before": ["<leader>", "r"],
       "commands": ["workbench.view.extension.dockerView"]
     },
