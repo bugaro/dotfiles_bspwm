@@ -1,16 +1,20 @@
 {
- "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Nord",
   "vim.easymotion": true,
   "vim.useSystemClipboard": true,
   "vim.easymotionMarkerForegroundColorOneChar": "yellow",
   "vim.easymotionMarkerBackgroundColor": "black",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": ["<space>"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
       "before": ["<leader>", "w"],
       "commands": ["workbench.action.splitEditor"]
     },
     {
-      "before": ["<leader>", "t"],
+      "before": ["<leader>", "e"],
       "commands": ["workbench.action.toggleSidebarVisibility"]
     },
     {
@@ -18,20 +22,20 @@
       "commands": ["revealInExplorer"]
     },
     { "before": ["<leader>", "d"], "commands": ["workbench.view.debug"] },
-    { "before": ["<leader>", "k"], "commands": ["git.commitAll"] },
+    { "before": ["<leader>", "c"], "commands": ["git.commitAll"] },
     { "before": ["<leader>", "g"], "commands": ["workbench.view.scm"] },
-    { "before": ["<leader>", "c"], "commands": ["git.checkout"] },
+    { "before": ["<leader>", "u"], "commands": ["git.checkout"] },
     {
-      "before": ["<leader>", "s"],
+      "before": ["<leader>", "p"],
       "commands": ["workbench.action.openRecent"]
     },
     {
-      "before": ["<leader>", "r"],
+      "before": ["<leader>", "k"],
       "commands": ["workbench.view.extension.dockerView"]
     },
     {
-      "before": ["<leader>", "r", "f"],
-      "commands": ["fileutils.renameFile"]
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.view.extension.todo-tree-container"]
     },
     {
       "before": ["<tab>"],
@@ -56,17 +60,21 @@
   "vim.searchHighlightColor": "rgba(0, 0, 0, 0.5)",
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "on",
-  "window.menuBarVisibility": "toggle",
+  "editor.fontSize": 17,
   "git.autofetch": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "window.zoomLevel": 0,
   "gitlens.views.repositories.files.layout": "tree",
-  "editor.fontSize": 15,
-  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace','Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid','Font Awesome 5 Free Regular', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Font Awesome 5 Brands Regular','Font Awesome 5 Free Solid', 'Font Awesome 5 Free Regular', 'Droid Sans Fallback'",
   "todo-tree.tree.showScanModeButton": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.fontLigatures": true,
+  "editor.cursorBlinking": "solid",
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "window.menuBarVisibility": "toggle",
+  "workbench.statusBar.visible": true,
+  "editor.renderWhitespace": "none",
+  "workbench.activityBar.visible": false
 }
