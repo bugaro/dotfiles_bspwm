@@ -31,10 +31,9 @@ super + Escape
     xkill
 
 super + b 
-	firefox
-
+	flatpak run org.mozilla.firefox
 super + c 
-	code-oss
+	flatpak run com.visualstudio.code-oss
 
 super + n 
 	termite --exec nnn
