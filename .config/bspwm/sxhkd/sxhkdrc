@@ -33,7 +33,7 @@ super + Escape
 super + b 
 	flatpak run org.mozilla.firefox
 super + c 
-	flatpak run com.visualstudio.code-oss
+	code-oss
 
 super + n 
 	termite --exec nnn
