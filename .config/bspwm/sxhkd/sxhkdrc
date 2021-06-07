@@ -24,19 +24,19 @@ super + r
 
 #Termite
 super + Return
-    termite
+    alacritty
 
 #Xkill
 super + Escape
     xkill
 
 super + b 
-	flatpak run org.mozilla.firefox
+	firefox
 super + c 
-	code-oss
+	code
 
 super + n 
-	termite --exec nnn
+	alacritty -e nnn
 #################################################################
 # SUPER + SHIFT KEYS
 #################################################################
@@ -70,7 +70,7 @@ super + shift + s
 
 #Scrot
 Print
-   flatpak run org.ksnip.ksnip 
+   ksnip 
 
 
 #################################################################
@@ -121,11 +121,11 @@ XF86AudioStop
 
 #Brightness up
 XF86MonBrightnessUp
-    xbacklight -inc 10
+    xrandr --output eDP --brightness 1
 
 #Brightness down
 XF86MonBrightnessDown
-    xbacklight -dec 10
+    xrandr --output eDP --brightness 0.65
 
 #########################
 #        POLYBAR        #
