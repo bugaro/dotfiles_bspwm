@@ -33,7 +33,7 @@ run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
 # conky -c $HOME/.config/bspwm/system-overview &
 # run variety &
-# run nm-applet &
+run nm-applet &
 # run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
