@@ -3,22 +3,17 @@
   {
     "key": "j",
     "command": "list.focusDown",
-    "when": "listFocus"
+    "when": "listFocus && !editorHasRenameProvider && editorReadonly"
   },
   {
     "key": "k",
     "command": "list.focusUp",
-    "when": "listFocus"
+    "when": "listFocus && !editorHasRenameProvider && editorReadonly"
   },
   {
     "key": "enter",
     "command": "list.select",
     "when": "explorerViewletVisible && filesExplorerFocus"
-  },
-  {
-    "key": "o",
-    "command": "list.toggleExpand",
-    "when": "listFocus"
   },
   {
     "key": "ctrl+h",
