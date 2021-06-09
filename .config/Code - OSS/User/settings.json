@@ -76,5 +76,9 @@
   "window.menuBarVisibility": "toggle",
   "workbench.statusBar.visible": true,
   "editor.renderWhitespace": "none",
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.list.multiSelectModifier": "alt"
 }
