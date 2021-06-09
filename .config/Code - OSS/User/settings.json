@@ -21,6 +21,7 @@
       "before": ["<leader>", "f"],
       "commands": ["revealInExplorer"]
     },
+    { "before": ["<leader>", "s"], "commands": ["editor.foldAll"] },
     { "before": ["<leader>", "d"], "commands": ["workbench.view.debug"] },
     { "before": ["<leader>", "c"], "commands": ["git.commitAll"] },
     { "before": ["<leader>", "g"], "commands": ["workbench.view.scm"] },
