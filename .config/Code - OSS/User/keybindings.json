@@ -11,6 +11,11 @@
     "when": "listFocus && !inputFocus"
   },
   {
+    "key": "ctrl+s",
+    "command": "editor.unfold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
     "key": "enter",
     "command": "list.select",
     "when": "explorerViewletVisible && filesExplorerFocus"
@@ -99,5 +104,28 @@
     "key": "up",
     "command": "-list.focusUp",
     "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+shift+]",
+    "command": "-editor.unfold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+shift+[",
+    "command": "-editor.fold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+0",
+    "command": "-editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
   }
 ]
